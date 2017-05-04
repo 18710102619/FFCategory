@@ -13,6 +13,7 @@
 		36BDE9FC1EBB64E000F41295 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36BDE9FA1EBB64E000F41295 /* Main.storyboard */; };
 		36BDE9FE1EBB64E000F41295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36BDE9FD1EBB64E000F41295 /* Assets.xcassets */; };
 		36BDEA011EBB64E000F41295 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36BDE9FF1EBB64E000F41295 /* LaunchScreen.storyboard */; };
+		36BDEA261EBB6B7600F41295 /* NSObject+FFSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BDEA251EBB6B7600F41295 /* NSObject+FFSafe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		36BDEA021EBB64E000F41295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36BDEA071EBB64E000F41295 /* FFCategoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFCategoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36BDEA121EBB64E000F41295 /* FFCategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFCategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36BDEA241EBB6B7600F41295 /* NSObject+FFSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FFSafe.h"; sourceTree = "<group>"; };
+		36BDEA251EBB6B7600F41295 /* NSObject+FFSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FFSafe.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 				36BDE9FF1EBB64E000F41295 /* LaunchScreen.storyboard */,
 				36BDEA021EBB64E000F41295 /* Info.plist */,
 				36BDE9F11EBB64E000F41295 /* Supporting Files */,
+				36BDEA241EBB6B7600F41295 /* NSObject+FFSafe.h */,
+				36BDEA251EBB6B7600F41295 /* NSObject+FFSafe.m */,
 			);
 			path = FFCategory;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			files = (
 				36BDE9F91EBB64E000F41295 /* ViewController.m in Sources */,
 				36BDE9F61EBB64E000F41295 /* AppDelegate.m in Sources */,
+				36BDEA261EBB6B7600F41295 /* NSObject+FFSafe.m in Sources */,
 				36BDE9F31EBB64E000F41295 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
