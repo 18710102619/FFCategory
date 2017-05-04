@@ -16,8 +16,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/18710102619/FFCategory.git", :tag => "0.0.1" }
   s.requires_arc = true
 
-  s.resources     = "Resources/*.png"
-
   s.exclude_files = "FFCategory/Resource/**/*.bundle/*","FFCategory/**/AppDelegate.{h,m}","FFCategory/**/ViewController.{h,m}","FFCategory/**/main.{h,m}","FFCategoryTests","Pods"
 
   s.subspec 'Category' do |category|
