@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.exclude_files = "FFCategory/Resource/**/*.bundle/*","FFCategory/**/AppDelegate.{h,m}","FFCategory/**/ViewController.{h,m}","FFCategory/**/main.{h,m}","FFCategoryTests","Pods"
 
   s.subspec 'Category' do |category|
-      category.source_files ="FFCategory/Category/**/*.{h,m,mm,c,cc,cpp}"
+      category.source_files ="FFCategory/**/*.{h,m,mm,c,cc,cpp}"
   end
 
 end
